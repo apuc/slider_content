@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Слайдер</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body onload="init()">
+<div class="wrap">
+    <div class="main-slide">
+        <img id="s1" src="img/1366010809.jpg" alt="" class="active-slide">
+        <img id="s2" src="img/123.jpg" alt="" class="">
+        <img id="s3" src="img/1366010809.jpg" alt="" class="">
+        <img id="s4" src="img/123.jpg" alt="" class="">
+        <img id="s5" src="img/321.jpg" alt="" class="">
+    </div>
+    <div class="descr">
+        <div class="descr-slide active-descr" id="d1">
+            <div class="descr-slide-title">Гоа1</div>
+            <hr>
+            <div class="descr-slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quibusdam.1</div>
+        </div>
+        <div class="descr-slide" id="d2">
+            <div class="descr-slide-title">Гоа2</div>
+            <hr>
+            <div class="descr-slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quibusdam.2</div>
+        </div>
+        <div class="descr-slide" id="d3">
+            <div class="descr-slide-title">Гоа3</div>
+            <hr>
+            <div class="descr-slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quibusdam.3</div>
+        </div>
+        <div class="descr-slide" id="d4">
+            <div class="descr-slide-title">Гоа4</div>
+            <hr>
+            <div class="descr-slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quibusdam.4</div>
+        </div>
+        <div class="descr-slide" id="d5">
+            <div class="descr-slide-title">Гоа5</div>
+            <hr>
+            <div class="descr-slide-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, quibusdam.5</div>
+        </div>
+        <div class="nav">
+            <!--<a href="#" class="togle-menu">Меню</a>
+            <a href="#" class="next-slide">next</a>-->
+            <a href="#" class="prev-slide">
+                <div><span class="glyphicon glyphicon-chevron-up"></span></div>
+            </a>
+            <a href="#" class="next-slide">
+                <div><span class="glyphicon glyphicon-chevron-down"></span></div>
+            </a>
+            <a href="#" class="togle-menu">
+                <div><span class="glyphicon glyphicon-align-justify"></span></div>
+            </a>
+        </div>
+    </div>
+    <div class="menu" data-pos="0">
+        <div class="item item-active" data-num="1" id="item_s1">
+            <div class="preview"><img src="img/1366010809.jpg" alt=""></div>
+            <div class="item-descr">
+                <div class="item-descr-title">Гоа1</div>
+                <hr>
+                <div class="item-descr-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nostrum.</div>
+            </div>
+        </div>
+        <div class="item" data-num="2" id="item_s2">
+            <div class="preview"><img src="img/123.jpg" alt=""></div>
+            <div class="item-descr">
+                <div class="item-descr-title">Гоа2</div>
+                <hr>
+                <div class="item-descr-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nostrum.</div>
+            </div>
+        </div>
+        <div class="item" data-num="3" id="item_s3">
+            <div class="preview"><img src="img/1366010809.jpg" alt=""></div>
+            <div class="item-descr">
+                <div class="item-descr-title">Гоа3</div>
+                <hr>
+                <div class="item-descr-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nostrum.</div>
+            </div>
+        </div>
+        <div class="item" data-num="4" id="item_s4">
+            <div class="preview"><img src="img/123.jpg" alt=""></div>
+            <div class="item-descr">
+                <div class="item-descr-title">Гоа4</div>
+                <hr>
+                <div class="item-descr-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nostrum.</div>
+            </div>
+        </div>
+        <div class="item" data-num="5" id="item_s5">
+            <div class="preview"><img src="img/321.jpg" alt=""></div>
+            <div class="item-descr">
+                <div class="item-descr-title">Гоа5</div>
+                <hr>
+                <div class="item-descr-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, nostrum.</div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
